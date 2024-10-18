@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to right, #c1cfde, hsl(19, 78%, 33%));
+    color: black;border-color: aqua;
+    padding: 100px;
+    text-align: center;
+    border-radius: 0 0 20px 20px; /* Rounded bottom corners */
+}
+
+h1 {
+    font-size: 4.5em; /* Large font size */
+    margin: 0;
+}
+
+h2 {
+    font-size: 5cap; /* Large font size for subtitle */
+    margin: 10px 0;
+}
+
+p {
+    font-size: 3.5em; /* Bigger paragraph font size */
+    margin-top: 10px;
+    max-width: 900px; /* Limit width for readability */
+    margin-left: auto; /* Center the text */
+    margin-right: auto; /* Center the text */
+}
